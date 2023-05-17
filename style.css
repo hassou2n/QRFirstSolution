@@ -1,0 +1,44 @@
+body {
+  min-height: 100vh;
+  background-color: #d5e2ef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.container {
+  background-color: white;
+  height: 550px;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.QR {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.QR img {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.QRText {
+  padding: 20px;
+}
+
+.QRText h1 {
+  font-size: 25px;
+}
+
+.QRText p {
+  color: #999ba4;
+  font-size: 15px;
+}
+.attribution {
+  position: absolute;
+  bottom: 0;
+}
